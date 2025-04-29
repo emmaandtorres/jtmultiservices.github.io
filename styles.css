@@ -1,0 +1,203 @@
+* {    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.site-header {
+    background: #1e1e2f;
+    padding: 1rem 0;
+}
+
+.site-header .logo {
+    color: white;
+    font-size: 1.8rem;
+}
+
+.site-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 0.5rem;
+}
+
+.site-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s;
+    border-radius: 0.5rem;
+}
+
+.site-nav a:hover, .site-nav a:focus {
+    background: #3d3d5c;
+}
+
+.welcome {
+    background: linear-gradient(135deg, #e8e8e8, #d0d0d0);
+    text-align: center;
+    padding: 5rem 2rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin: 2rem 0;
+}
+
+.welcome-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.welcome-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn-primary {
+    display: inline-block;
+    background: #0056b3;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 0.75rem;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background: #003d80;
+}
+
+
+.section {
+    padding: 4rem 0;
+    background: white;
+    margin-bottom: 2rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.section-alt {
+    background: #f9f9f9;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.services-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 0;
+}
+
+.services-list li {
+    background: #e0e0e0;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.btn-secondary {
+    display: inline-block;
+    background: #3b3a3a;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 0.75rem;
+    margin-top: 1rem;
+    transition: background 0.3s;
+}
+
+.btn-secondary:hover, .btn-secondary:focus {
+    background: #4c4b4b;
+}
+
+.footers {
+    background: #1e1e2f;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+}
+
+
+
+.btn-primary {
+    display: inline-block;
+    background-color: #7a0202; 
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+} 
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #570101;
+}
+
+label {
+    display: block;
+    font-weight: 1000px;
+    color: black;
+}
+
+.contact-form {
+    background-color: #dfdfdf;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px #0000001a;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: block;
+    font-weight: 600px;
+    margin-bottom: 0.5rem;
+    color: #333333;
+}
+
+.contact-form input, textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-size: 1rem;
+}
+
+img{
+    max-width: 500px;
+    max-height: auto;
+
+}
+.img-container{
+    display: flex;
+ 
+}
+
+
+@media (max-width: 768px) {
+    .services-list {
+        grid-template-columns: 1fr;
+    }
+}
